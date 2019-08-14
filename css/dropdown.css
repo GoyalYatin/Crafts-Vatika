@@ -1,0 +1,79 @@
+/* drop down css */
+.header-submenu-wrap{
+	background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 11px 10px #DCDCDC;
+    clear: both;
+    display: none;
+    float: left;
+    left: 00px;
+    padding: 13px 8px 13px 13px;
+    position: absolute;
+    width: auto;
+    z-index: 1020;
+}
+.demo{
+	float:left;
+	margin-right:35px;
+	text-align:left;
+}
+.lastdemo{
+	float:right;
+	margin-right:10px;
+}
+.demo a{
+	font-size:15px;
+}
+.demo h3{
+	font-size:18px;
+}
+.ic_container{
+    vertical-align:baseline;
+	
+    position:relative;
+	
+}	
+.classesmenu li:hover,.classesmenu a:hover{
+	text-decoration:none !important;
+}
+.classesmenu{
+	margin-bottom:0;
+	padding:0;
+}
+.classesmenu li{
+	border-radius:0;
+}
+
+.citydropdown{
+	display:none;
+	position:absolute;
+	z-index:1020;
+	background:#E96D63;
+	color:white;
+	border-radius:2px;
+	outline:none;
+}
+.citydropdown ul{
+	padding:5px;
+	margin:0;
+}
+.citydropdown ul li{
+	list-style:none;
+	padding:5px;
+	cursor:pointer;
+	border-bottom:1px solid #eee;
+}
+.citydropdown ul li:hover{
+	background:#fff;
+	color:#333;
+}
+.citydropdown ul li:last-child{
+	list-style:none;
+	padding-bottom:0px;
+	border-bottom:none;
+	font-size:12px;
+	cursor:default;
+}
+.citydropdown ul li:last-child:hover{
+	background:none;
+	color:#fff;
+}
